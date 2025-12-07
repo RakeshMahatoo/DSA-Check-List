@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Roadmap Checklist</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f7f9;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .topic {
+      background-color: #fff;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .topic-header {
+      padding: 15px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.1rem;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 8px 8px 0 0;
+      transition: background-color 0.3s;
+    }
+
+    .topic-header:hover {
+      background-color: #2980b9;
+    }
+
+    .topic-body {
+      padding: 15px 20px;
+      display: none;
+    }
+
+    .task {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .task input[type="checkbox"] {
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    /* Arrow icon */
+    .arrow {
+      transition: transform 0.3s;
+    }
+
+    .arrow.open {
+      transform: rotate(90deg);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .topic-header {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>DSA Roadmap Checklist</h1>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 1: Fundamentals & Analysis
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Time Complexity & Big-O Notation</div>
+    <div class="task"><input type="checkbox"> Arrays: insertion, deletion, traversal, max/min, prefix sum</div>
+    <div class="task"><input type="checkbox"> HashMaps / Sets: frequency, duplicates, two-sum</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 2: Patterns on Arrays/Strings
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Sliding Window</div>
+    <div class="task"><input type="checkbox"> Two Pointers</div>
+    <div class="task"><input type="checkbox"> Fast & Slow Pointer</div>
+    <div class="task"><input type="checkbox"> Modified Binary Search</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 3: Linked Lists
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Single & Doubly Linked Lists</div>
+    <div class="task"><input type="checkbox"> Reverse Linked List</div>
+    <div class="task"><input type="checkbox"> Detect Cycle</div>
+    <div class="task"><input type="checkbox"> Find Middle Node</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 4: Recursion & Backtracking
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Recursion Basics</div>
+    <div class="task"><input type="checkbox"> Backtracking: subsets, permutations, combinations</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 5: Stacks & Queues
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Stack: reverse string, balanced parentheses</div>
+    <div class="task"><input type="checkbox"> Queue: Enqueue/Dequeue, BFS usage</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 6: Trees
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Binary Trees / BST</div>
+    <div class="task"><input type="checkbox"> BFS (level order), DFS (pre/in/postorder)</div>
+    <div class="task"><input type="checkbox"> Path sum, height, diameter</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 7: Graphs
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Graph Intro: adjacency list/matrix</div>
+    <div class="task"><input type="checkbox"> Graph Traversals: BFS & DFS</div>
+    <div class="task"><input type="checkbox"> Advanced: Topological Sort, Shortest Path</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 8: Tries & Priority Queue
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Trie: word search, prefix problems</div>
+    <div class="task"><input type="checkbox"> Priority Queue / Heap: Top K, K-way merge, median</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 9: Sorting
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Basic: Bubble, Selection, Insertion</div>
+    <div class="task"><input type="checkbox"> Advanced: Merge Sort, Quick Sort</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 10: Dynamic Programming
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Simple DP: Fibonacci, Climbing Stairs</div>
+    <div class="task"><input type="checkbox"> Advanced DP: 0/1 Knapsack, Subset Sum, LIS</div>
+  </div>
+</div>
+
+<div class="topic">
+  <div class="topic-header">
+    Phase 11: Extra Patterns
+    <span class="arrow">&#9654;</span>
+  </div>
+  <div class="topic-body">
+    <div class="task"><input type="checkbox"> Merge Intervals</div>
+    <div class="task"><input type="checkbox"> Cyclic Sort</div>
+    <div class="task"><input type="checkbox"> Two Heaps</div>
+    <div class="task"><input type="checkbox"> K-Way Merge</div>
+  </div>
+</div>
+
+<script>
+  // Collapsible topic sections
+  const topics = document.querySelectorAll('.topic-header');
+  topics.forEach(topic => {
+    topic.addEventListener('click', () => {
+      const body = topic.nextElementSibling;
+      body.style.display = body.style.display === 'block' ? 'none' : 'block';
+      topic.querySelector('.arrow').classList.toggle('open');
+    });
+  });
+</script>
+
+</body>
+</html>
